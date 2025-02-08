@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  width: 100%;
+  min-width: 200px;
+  background-image: url("wallpapersden.com_amazing-outer-space-4k-galaxy_3072x2048.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#clock-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:4em;
+  font-family: monospace;
+  height: 100vh;
+
+}
+
+
+#clock{
+   color: white;;
+   backdrop-filter: blur(5px);
+   width: 100%;
+   text-align: center;
+
+}
+
